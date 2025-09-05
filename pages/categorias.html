@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoHome</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../css/categorias.css">
+</head>
+<body>  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">EcoHome</a>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link active" href="../index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="../pages/categorias.html">Categorias</a></li>
+          <li class="nav-item"><a class="nav-link" href="../pages/contato.html">Contato</a></li>
+        </ul>
+        <a href="#" class="btn btn-outline-light">
+          <i class="bi bi-cart"></i> Carrinho
+        </a>
+      </div>
+    </div>
+  </nav>
+
+<div class="container my-5">
+    <div class="row">
+
+      <aside class="col-md-3 mb-4">
+        <div class="card shadow-sm filtros-card">
+          <div class="card-header bg-success text-white fw-bold">Filtros</div>
+          <div class="card-body">
+            <h6 class="fw-bold">Preço</h6>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="preco1">
+              <label class="form-check-label" for="preco1">Até R$50</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="preco2">
+              <label class="form-check-label" for="preco2">R$50 - R$100</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="preco3">
+              <label class="form-check-label" for="preco3">Acima de R$100</label>
+            </div>
+
+            <hr>
+            <h6 class="fw-bold">Tipo de Produto</h6>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="beleza">
+              <label class="form-check-label" for="beleza">Beleza & Cuidados</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="casa">
+              <label class="form-check-label" for="casa">Itens para Casa</label>
+            </div>
+
+            <hr>
+            <h6 class="fw-bold">Marca</h6>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="marca1">
+              <label class="form-check-label" for="marca1">BioWear</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="marca2">
+              <label class="form-check-label" for="marca2">EcoHome</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="marca3">
+              <label class="form-check-label" for="marca3">GreenTech</label>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="col-md-9">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+          <div class="col">
+            <div class="card h-100 shadow-sm produto-card">
+              <img src="/img/talheresBambu.jpeg" class="card-img-top" alt="Kit Talheres de Bambu">
+              <div class="card-body">
+                <h5 class="card-title">Kit Talheres de Bambu</h5>
+                <p class="card-text">Substitua o plástico com estilo e responsabilidade.</p>
+                <p class="card-text preco">R$ 49,90</p>
+                <a href="#" class="btn btn-success w-100"><i class="fa fa-cart-plus"></i> Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm produto-card">
+              <img src="/img/canudosInox.jpeg" class="card-img-top" alt="Canudos de Inox">
+              <div class="card-body">
+                <h5 class="card-title">Canudos de Inox</h5>
+                <p class="card-text">Duráveis, reutilizáveis e fáceis de limpar.</p>
+                <p class="card-text preco">R$ 29,90</p>
+                <a href="#" class="btn btn-success w-100"><i class="fa fa-cart-plus"></i> Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm produto-card">
+              <img src="/img/pote.jpeg" class="card-img-top" alt="Potes Herméticos">
+              <div class="card-body">
+                <h5 class="card-title">Potes Herméticos</h5>
+                <p class="card-text">Duráveis e sustentáveis, além de manter conservado.</p>
+                <p class="card-text preco">R$ 89,90</p>
+                <a href="#" class="btn btn-success w-100"><i class="fa fa-cart-plus"></i> Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm produto-card">
+              <img src="/img/vasoPoteVidro.jpeg" class="card-img-top" alt="Vaso de Vidro Reciclado">
+              <div class="card-body">
+                <h5 class="card-title">Vaso de Vidro Reciclado</h5>
+                <p class="card-text">Decore com consciência e muito estilo.</p>
+                <p class="card-text preco">R$ 39,90</p>
+                <a href="#" class="btn btn-success w-100"><i class="fa fa-cart-plus"></i> Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm produto-card">
+              <img src="/img/vasoTampinha.jpeg" class="card-img-top" alt="Vaso de Tampinhas de Garrafa">
+              <div class="card-body">
+                <h5 class="card-title">Vaso de Tampinhas de Garrafa</h5>
+                <p class="card-text">Decore com as tampas das suas bebidas prediletas.</p>
+                <p class="card-text preco">R$ 34,90</p>
+                <a href="#" class="btn btn-success w-100"><i class="fa fa-cart-plus"></i> Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm produto-card">
+              <img src="/img/sabao.jpeg" class="card-img-top" alt="Sabão Artesanal">
+              <div class="card-body">
+                <h5 class="card-title">Sabão Artesanal</h5>
+                <p class="card-text">Feito com ingredientes naturais e biodegradáveis.</p>
+                <p class="card-text preco">R$ 19,90</p>
+                <a href="#" class="btn btn-success w-100"><i class="fa fa-cart-plus"></i> Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 shadow-sm produto-card">
+              <img src="/img/incenso.jpeg" class="card-img-top" alt="Incenso Natural">
+              <div class="card-body">
+                <h5 class="card-title">Incenso Natural</h5>
+                <p class="card-text">Feito com ingredientes naturais para deixar sua casa mais cheirosa.</p>
+                <p class="card-text preco">R$ 14,90</p>
+                <a href="#" class="btn btn-success w-100"><i class="fa fa-cart-plus"></i> Adicionar ao Carrinho</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p class="mb-1">&copy; 2025 EcoTrend - Todos os direitos reservados.</p>
+    <div>
+      <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+   <hr>
+
+      <button id="btnFiltrar" class="btn btn-success w-100 mt-3">Aplicar Filtros</button>
+
+</body>
+</html>
