@@ -57,9 +57,9 @@ O objetivo é criar uma aplicação web que simule uma loja virtual com produtos
 ## 👥 Equipe  
 
 - **Eduarda - RM 562184** – Página Inicial  
-- **Matheus - RM ** – Página de Categorias  
+- **Matheus - RM *561539* – Página de Categorias  
 - **Vinicius Mafra - RM 565916** – Página de Detalhes do Produto  
-- **Kaike - RM ** – Página de Contato e Footer  
+- **Kaike - RM *561623* – Página de Contato e Footer  
 
 ---
 
