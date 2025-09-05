@@ -55,7 +55,6 @@ img {
   padding: 50px;
 }
 
-/* Centraliza todo o conteúdo dentro dos cards */
 .produto-card .card-body {
   text-align: center;
   display: flex;
@@ -63,17 +62,15 @@ img {
   justify-content: space-between;
 }
 
-/* Mantém altura uniforme para títulos */
 .produto-card .card-title {
-  min-height: 48px; /* evita desalinhamento por títulos curtos */
+  min-height: 48px; 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* Mantém altura uniforme para descrições */
 .produto-card .card-text {
-  min-height: 40px; /* mantém descrições alinhadas */
+  min-height: 40px; 
   display: flex;
   align-items: center;
   justify-content: center;
